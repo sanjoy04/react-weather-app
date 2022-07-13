@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 function App() {
   const [data, setData] = useState({});
   const [location, setLocation] = useState("");
+  useEffect(() => {
+    document.title = "Weather";
+  });
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=a3982203d773d8846c306fc6c2fbcd20`;
 
