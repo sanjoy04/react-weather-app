@@ -108,3 +108,7 @@ h1{
   text-align: center;
   height: 50%;
 }
+
+.title{
+  margin: 0 0.6rem;
+}
