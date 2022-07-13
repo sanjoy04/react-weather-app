@@ -51,7 +51,8 @@ h1{
   font-style: 1.2rem;
   border-radius: 25px;
   border: none;
-  border-style: none;
+  outline: none;
+  
 }
 
 .app .search{
@@ -100,4 +101,10 @@ h1{
 
 .bold{
   font-weight: 700;
+}
+
+.err{
+  justify-content: center;
+  text-align: center;
+  height: 50%;
 }
